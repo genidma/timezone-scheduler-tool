@@ -1,0 +1,15 @@
+name,email,timezone,count
+Alex Mercer,alex.mercer@example.com,America/Edmonton,28
+Brooke Allen,brooke.allen@example.com,America/Edmonton,24
+Chris Young,chris.young@example.com,America/Edmonton,20
+Dana Flores,dana.flores@example.com,America/Edmonton,18
+Evan Reed,evan.reed@example.com,America/Denver,14
+Faith Cooper,faith.cooper@example.com,America/Denver,10
+Gavin Price,gavin.price@example.com,America/Vancouver,12
+Harper Bell,harper.bell@example.com,America/Los_Angeles,11
+Isaac Cook,isaac.cook@example.com,America/Chicago,9
+Jules Ward,jules.ward@example.com,America/Toronto,8
+Kendra Brooks,kendra.brooks@example.com,America/New_York,7
+Liam Foster,liam.foster@example.com,Europe/Berlin,6
+Maya Klein,maya.klein@example.com,Europe/Zurich,5
+Nora Weber,nora.weber@example.com,Europe/Paris,4

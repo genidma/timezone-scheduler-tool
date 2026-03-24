@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timezone Scheduler Tool</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <button id="toggle-legends" type="button">Legends</button>
+
+    <div id="app">
+        <h1>Timezone Scheduler Tool</h1>
+
+        <div class="panel">
+            <h2>Select Time Zones</h2>
+            <div id="speakers"></div>
+        </div>
+
+        <div class="panel timing-panel">
+            <div>
+                <h2>Choose Event Time</h2>
+                <p class="panel-copy">All event times in this tool are shown in Calgary time.</p>
+                <input type="time" id="event-time" value="12:00">
+            </div>
+            <div id="recommendation-card" class="recommendation-card">
+                <div class="recommendation-label">Recommended Time</div>
+                <div id="recommended-time" class="recommendation-time">12:00 Calgary</div>
+                <div id="recommendation-reason" class="recommendation-reason">Balanced against the current audience model.</div>
+                <button id="apply-recommended-time" type="button">Use Recommended Time</button>
+            </div>
+        </div>
+
+        <div class="panel">
+            <h2>Audience Upload</h2>
+            <p class="panel-copy">Upload a CSV export from your form with a <code>timezone</code> column. Optional columns like <code>count</code> or <code>audience_count</code> will be summed.</p>
+            <div class="upload-row">
+                <input type="file" id="audience-file" accept=".csv,text/csv">
+                <button id="reset-upload" type="button">Reset Upload</button>
+            </div>
+            <div id="upload-status" class="upload-status">No audience file uploaded. Manual audience controls are active.</div>
+            <div id="upload-summary" class="upload-summary"></div>
+        </div>
+
+        <div class="panel">
+            <h2>Audience Engagement Controls</h2>
+            <p class="panel-copy">Adjust audience size and viewing habits by region. If you upload a form export, region size is derived from the uploaded audience while peak behavior remains editable.</p>
+            <div id="audience-controls"></div>
+        </div>
+
+        <div class="panel">
+            <h2>Feedback Metrics</h2>
+            <div id="metrics"></div>
+        </div>
+
+        <div class="panel">
+            <h2>Audience Engagement Heatmap</h2>
+            <div id="heatmap-container">
+                <svg id="heatmap-svg"></svg>
+            </div>
+            <p id="heatmap-explanation">The heatmap shows estimated engagement by time and region. Darker cells indicate stronger engagement based on each region's local peak hour and preferred viewing window. Uploaded audience timezones rebalance the audience model and recommended time automatically.</p>
+        </div>
+    </div>
+
+    <div id="legends-sidebar">
+        <button id="close-legends" type="button">&times;</button>
+        <div id="legends">
+            <div id="feedback-legend">
+                <div class="legend-title">Feedback Metrics Legend</div>
+                <ul class="legend-list">
+                    <li><strong>Speakers Available:</strong> Number of selected speakers available during the chosen time (9am-5pm local time)</li>
+                    <li><strong>Total Audience Size:</strong> Estimated total engaged audience across all configured or uploaded audience segments</li>
+                    <li><strong>Average Audience Quality:</strong> Average engagement level across regions, from 0.20 to 1.00</li>
+                    <li><strong>Compromise Score:</strong> Weighted score balancing speaker availability, audience size, and engagement quality</li>
+                </ul>
+            </div>
+            <div id="engagement-legend">
+                <div class="legend-title">Engagement Level</div>
+                <div class="legend-scale">
+                    <div class="legend-color" style="background: linear-gradient(to bottom, #f7fbff, #08306b);"></div>
+                    <div class="legend-labels">
+                        <div>High (100%)</div>
+                        <div>Low (20%)</div>
+                    </div>
+                </div>
+                <div class="legend-description">Engagement rises and falls smoothly based on each region's local peak time and viewing window. Uploaded timezone data shifts the audience weighting toward where your real respondents are.</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

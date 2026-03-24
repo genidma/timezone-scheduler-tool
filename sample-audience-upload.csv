@@ -1,0 +1,19 @@
+name,email,timezone,count
+Alex Chen,alex@example.com,America/Edmonton,18
+Jordan Smith,jordan@example.com,America/Edmonton,12
+Priya Patel,priya@example.com,America/Vancouver,15
+Sam Wilson,sam@example.com,America/Los_Angeles,20
+Taylor Brown,taylor@example.com,America/Denver,16
+Morgan Lee,morgan@example.com,America/Chicago,14
+Casey Nguyen,casey@example.com,America/New_York,22
+Jamie Garcia,jamie@example.com,America/Toronto,19
+Chris Johnson,chris@example.com,Europe/London,17
+Avery Davis,avery@example.com,Europe/Berlin,13
+Riley Martin,riley@example.com,Europe/Paris,11
+Skyler Thomas,skyler@example.com,Africa/Johannesburg,9
+Dev Sharma,dev@example.com,Asia/Dubai,10
+Nina Sato,nina@example.com,Asia/Tokyo,21
+Arjun Rao,arjun@example.com,Asia/Kolkata,24
+Mei Lin,mei@example.com,Asia/Singapore,18
+Olivia White,olivia@example.com,Australia/Sydney,14
+Noah Harris,noah@example.com,Pacific/Auckland,8
