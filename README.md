@@ -12,7 +12,7 @@ An interactive web-based tool that helps event organizers visualize timezone sch
 
 ## Goal
 
-Find the 'least bad' compromise time that balances international speaker access with domestic and international audience reach.
+Find the time that balances international speaker access with domestic and international audience reach.
 
 ## How to Run
 
