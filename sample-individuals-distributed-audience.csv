@@ -1,5 +1,5 @@
 name,email,timezone
-Person 001,person001@example.com,America/Edmonton
+Person 001,person001@example.com,America/Denver
 Person 002,person002@example.com,America/Los_Angeles
 Person 003,person003@example.com,America/Chicago
 Person 004,person004@example.com,America/New_York

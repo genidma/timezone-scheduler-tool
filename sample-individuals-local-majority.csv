@@ -1,15 +1,15 @@
 name,email,timezone
-Person 001,person001@example.com,America/Edmonton
-Person 002,person002@example.com,America/Edmonton
-Person 003,person003@example.com,America/Edmonton
-Person 004,person004@example.com,America/Edmonton
-Person 005,person005@example.com,America/Edmonton
-Person 006,person006@example.com,America/Edmonton
-Person 007,person007@example.com,America/Edmonton
-Person 008,person008@example.com,America/Edmonton
-Person 009,person009@example.com,America/Edmonton
-Person 010,person010@example.com,America/Edmonton
-Person 011,person011@example.com,America/Edmonton
+Person 001,person001@example.com,America/Denver
+Person 002,person002@example.com,America/Denver
+Person 003,person003@example.com,America/Denver
+Person 004,person004@example.com,America/Denver
+Person 005,person005@example.com,America/Denver
+Person 006,person006@example.com,America/Denver
+Person 007,person007@example.com,America/Denver
+Person 008,person008@example.com,America/Denver
+Person 009,person009@example.com,America/Denver
+Person 010,person010@example.com,America/Denver
+Person 011,person011@example.com,America/Denver
 Person 012,person012@example.com,America/Denver
 Person 013,person013@example.com,America/Denver
 Person 014,person014@example.com,America/Denver

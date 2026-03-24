@@ -1,8 +1,8 @@
 name,email,timezone,count
-Alex Mercer,alex.mercer@example.com,America/Edmonton,28
-Brooke Allen,brooke.allen@example.com,America/Edmonton,24
-Chris Young,chris.young@example.com,America/Edmonton,20
-Dana Flores,dana.flores@example.com,America/Edmonton,18
+Alex Mercer,alex.mercer@example.com,America/Denver,28
+Brooke Allen,brooke.allen@example.com,America/Denver,24
+Chris Young,chris.young@example.com,America/Denver,20
+Dana Flores,dana.flores@example.com,America/Denver,18
 Evan Reed,evan.reed@example.com,America/Denver,14
 Faith Cooper,faith.cooper@example.com,America/Denver,10
 Gavin Price,gavin.price@example.com,America/Vancouver,12

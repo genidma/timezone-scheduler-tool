@@ -2,7 +2,7 @@
 
 const speakers = [
     { city: 'New York (EST)', region: 'NA', timezone: -5 },
-    { city: 'Calgary (MST)', region: 'NA', timezone: -7 },
+    { city: 'Host Time (Mountain)', region: 'NA', timezone: -7 },
     { city: 'London (GMT)', region: 'EU', timezone: 0 },
     { city: 'Berlin (CET)', region: 'EU', timezone: 1 },
     { city: 'Sydney (AEST)', region: 'AS', timezone: 10 },
@@ -10,8 +10,8 @@ const speakers = [
 ];
 
 const referenceDate = new Date(Date.UTC(2026, 2, 24, 0, 0, 0));
-const EVENT_TIME_ZONE = 'America/Edmonton';
-const EVENT_TIME_LABEL = 'Calgary';
+const EVENT_TIME_ZONE = 'America/Denver';
+const EVENT_TIME_LABEL = 'Host Local';
 const regionConfigs = {
     NA: {
         label: 'North America',
